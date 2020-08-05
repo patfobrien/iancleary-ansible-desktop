@@ -1,13 +1,5 @@
 ---
-- name: GNOME - Enable universe repository 18.04
-  become: true
-  apt_repository:
-    repo: "{{ item }}"
-  loop:
-    - "deb http://us.archive.ubuntu.com/ubuntu/ bionic universe"
-    - "deb http://us.archive.ubuntu.com/ubuntu/ bionic-updates universe"
-    - "deb http://security.ubuntu.com/ubuntu bionic-security universe"
-  when: ansible_distribution_version == "18.04"
+
 
 - name: GNOME - Enable universe repository 20.04
   become: true
