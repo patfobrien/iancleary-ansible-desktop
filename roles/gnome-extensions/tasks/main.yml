@@ -1,6 +1,4 @@
 ---
-
-
 - name: GNOME - Enable universe repository 20.04
   become: true
   apt_repository:
