@@ -1,32 +1,9 @@
 # ansible-desktop
 
-[![Test](https://github.com/iancleary/ansible-desktop/workflows/Test/badge.svg)](https://github.com/iancleary/ansible-desktop/actions)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0a90303b-4694-4407-964b-0caa5a68827c/deploy-status)](https://app.netlify.com/sites/iancleary-ansible-desktop/deploys)
-
-## Ansible Playbook to configure my laptops and desktops
-
-I care about not having to think too much about my setup between machines.
-Especially when I want to get right to work.
-
-For that reason, it is very comfortable for me
-to have the same base configuration
-on each machine (look, feel,
-keyboard shortcuts, core software, etc.).
-
-### My journey to the current state of this repo
-
-* I found a cool bash script on the internet (*I didn't understand most of it*) 🤷
-* I modified cool bash script for my needs and it worked! 🚀
-* I learned about Makefiles. 😄
-* I proceeded to do everything with Makefiles. 🤩🤩🤩
-* I got tired of running successive Make targets over and again 😐.
-* I used Ansible at work and decided to take a course to learn more about it. 🤓
-* I put off actually taking the plunge to use Ansible. 🕒🕕🕘🕛
-* I finally took the plunge and decided to use Ansible for my configuration. ✔️
 
 ## Supported Ubuntu LTS Versions
 
-* Ubuntu 18.04
+
 * Ubuntu 20.04
 
 > There are no plans to support or test non-LTS versions.
@@ -51,7 +28,7 @@ but below is a list of what the repo helps install.
 
 ### Application Base
 
-* `Flatpak`,
+
 * `Snap`,
 
 ### Backups
