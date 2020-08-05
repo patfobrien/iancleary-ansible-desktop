@@ -6,7 +6,7 @@
     - {role: yadm, tags: ['yadm']}
     - {role: hyper, tags: ['hyper']}
     - {role: docker, tags: ['docker']}
-    # - {role: python, tags: ['python']}
+    - {role: python, tags: ['python']}
     - {role: yarn, tags: ['nodejs', 'yarn']}
     - {role: iancleary.jetbrains_mono, tags: ['jetbrains-mono']} # installs font
     - {role: jetbrains_mono, tags: ['jetbrains-mono']} # sets gnome defaults
@@ -28,8 +28,8 @@
        when: "ansible_hostname in ['xps', 'desktop', 'runner']"
     }
     - {role: stacer, tags: ['stacer']}
-    - {role: flatpak, tags: ['flatpak']}
+#    - {role: flatpak, tags: ['flatpak']}
     # Installed Evolution and LibreOffice with Flatpak
-    - {role: evolution-remove-apt, tags: ['evolution-remove-apt']}
-    - {role: libreoffice-remove-apt, tags: ['libreoffice-remove-apt']}
+ #   - {role: evolution-remove-apt, tags: ['evolution-remove-apt']}
+  #  - {role: libreoffice-remove-apt, tags: ['libreoffice-remove-apt']}
     - {role: wifi-analyzer, tags: ['wifi-analyzer']}
